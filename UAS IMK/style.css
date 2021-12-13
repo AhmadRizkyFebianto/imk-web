@@ -1,0 +1,258 @@
+.tanaman {
+    background-image: url("asset/bg2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.tekno {
+    background-image: url("asset/bg3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.main {
+    background-image: url("asset/bg.png");
+    background-size: cover;
+}
+
+.beranda {
+    background-image: url("asset/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-attachment: fixed;
+}
+
+.about {
+    background-image: url("asset/bg4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.txtmain {
+    width: 40%;
+    padding: 50px 20px 2.6cm 20px;
+}
+.txthome{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.txthome p {
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+    width: 43%;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    background: none;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+    float: right;
+    margin: 5px 15px 5px 5px;
+}
+
+li {
+    background-color: #37988e;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    display: flex;
+    margin: 20px 20px 10px 10px;
+}
+
+.tanam img {
+    /* float: right; */
+    width: 10cm;
+    padding: 20px 20px 20px 20px;
+    margin-right: 20px;
+}
+
+.tanam p {
+    /* float: right; */
+    text-align: justify;
+    font-size: 25px;
+    width: 40%;
+    padding: 20px 20px 0px 20px;
+}
+
+.tanam h2 {
+    /* float: right; */
+    width: 40%;
+    padding: 20px 20px 0px 20px;
+}
+
+.tanam {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100%;
+    align-items: end;
+}
+
+.teknologi img {
+    float: left;
+    width: 10cm;
+    padding: 20px 20px 20px 20px;
+    margin-left: 20px;
+}
+
+.teknologi h2 {
+    float: right;
+    width: 40%;
+    padding: 20px 20px 0px 20px;
+}
+
+.teknologi p {
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+    width: 45%;
+    padding: 20px 20px 0px 20px;
+}
+
+.teknologi {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    align-items: start;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h6 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 30px;
+    color: green;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+    color: white;
+    outline: 0;
+    text-decoration: none;
+}
+
+.fourth {
+    border-color: chartreuse;
+    color: chartreuse;
+    background-image: linear-gradient(45deg, chartreuse 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 600ms ease-in-out;
+    text-decoration: none;
+}
+
+.fourth:hover {
+    background-position: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foto-yoga img {
+    width: 40vh;
+}
+
+.foto-rizky img {
+    width: 20vh;
+}
+
+.deskripsi-yoga {
+    padding-top: 1cm;
+    font-size: 24px;
+    background-color: #22d3c1;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.deskripsi-rizky {
+    padding-top: 1cm;
+    font-size: 24px;
+    background-color: #22d3c1;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 660px 670px;
+    justify-items: center;
+    margin-top: 2cm;
+}

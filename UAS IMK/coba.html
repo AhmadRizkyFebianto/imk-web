@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript HTML Events</h2>
+    <h2 onclick="changeText(this)">Click on this text!</h2>
+
+    <script>
+        function changeText(id) {
+            if (id.innerHTML == "Click on this text!") {
+                id.innerHTML = "iyaah";
+                return;
+            }
+            if (id.innerHTML == "iyaah") {
+                id.innerHTML = "how";
+                return;
+            }
+
+            if (id.innerHTML == "how") {
+                id.innerHTML = "yoga";
+                return;
+            }
+
+            if (id.innerHTML == "yoga") {
+                id.innerHTML = "ariz";
+                return;
+            }
+
+            if (id.innerHTML == "ariz") {
+                id.innerHTML = "alhamdulillah"
+                return;
+            }
+
+            if (id.innerHTML == "alhamdulillah") {
+                id.innerHTML = "akhirnya bisa"
+                return;
+            }
+
+            if (id.innerHTML == "akhirnya bisa") {
+                id.innerHTML = "syukron ya rabb"
+                return;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
